@@ -9,6 +9,7 @@ class HelloWorld
 
     public function __construct(PDO $pdo)
     {
+        // Assign value
         $this->pdo = $pdo;
     }
 
